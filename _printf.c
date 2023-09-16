@@ -1,9 +1,9 @@
 #include "main.h"
 void print_buffer(char buffer[], int *buff_ind);
 /**
- * _printf - Printf function
- * @format: format.
- * Return: Printed chars.
+ * _printf is a name for Printf function
+ * @formatis for the formatc simpcifer.
+ * It will Return Printed chars which the number of character iun the string.
  */
 int _printf(const char *format, ...)
 {
