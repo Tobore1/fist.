@@ -5,10 +5,6 @@
 #include <unistd.h>
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
-#include <string.h>
-int _prinf(const char *format,...);
-int binary(int num);
-int octal(int n);
 /* FLAGS */
 #define F_MINUS 1
 #define F_PLUS 2
