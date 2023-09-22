@@ -4,7 +4,10 @@
 
 #include <stdarg.h>
 
-#include <stdio.h>
+#include <stdlib.h>
+int prtchar (char c );
+int _printf(const char *format, ...);
+int putss(char *c );
 
 #include <unistd.h>
 
